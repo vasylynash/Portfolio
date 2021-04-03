@@ -16,4 +16,4 @@ The **Contact me** section provides links to GitHub, LinkedIn, and a contact pho
 
 [Deployed web page](https://vasylynash.github.io/Portfolio/)
 
-![Screenshot](https://github.com/vasylynash/Horiseon/blob/media/Horiseon.png)
+![Screenshot]()
