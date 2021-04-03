@@ -1,5 +1,6 @@
 :root {
   --blue: #3b566e;
+  --light-blue: rgb(149, 217, 238);
 }
 
 * {
@@ -18,7 +19,7 @@
 
 h1 {
     font-size: 35px;
-    background-color: rgb(149, 217, 238);;
+    background-color: var(--light-blue);
     color:var(--blue);
     padding-top: 10px;
     padding-bottom: 0px;
@@ -86,13 +87,22 @@ li {
   top: 50%;
   right: 0%;
   padding: 20px;
-  background-color: rgb(149, 217, 238);;
+  background-color: var(--light-blue);
+}
+
+.photo {
+  position: absolute;
+  /* width: 150px; */
+  height: 150px;
+  top:25px;
+  left:15px;
 }
 
 span {
-  background-color: rgb(149, 217, 238);
+  background-color: var(--light-blue);
   color: var(--blue);
   font-weight: bolder;
+  line-height: 1.6;
 }
 
 main {
@@ -154,10 +164,10 @@ p {
 
 .content div{
   justify-content: center;
-  height: 100px;
+  height: 150px;
   width: 49.5%;
   margin-bottom: 1%;
-  border: 5px solid rgb(149, 217, 238); 
+  border: 5px solid var(--light-blue); 
 }
 
 .content img {
@@ -182,7 +192,7 @@ h3 {
   bottom: 10px;
   left: 0%;
   padding: 10px;
-  background-color: rgb(149, 217, 238);
+  background-color: var(--light-blue);
   font-size: 18px;
   color: rgb(46, 50, 99);
 }
@@ -196,7 +206,7 @@ sub {
   font-size: 14px;
   font-style: italic;
   font-weight: lighter;
-  background: rgb(149, 217, 238);
+  background: var(--light-blue);
 }
 
 .links {
